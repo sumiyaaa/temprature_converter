@@ -1,0 +1,43 @@
+#converter {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#converter label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#converter input[type="number"] {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#converter select {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#converter button {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#converter button:hover {
+	background-color: #45a049;
+}
+
+#result {
+	margin-top: 10px;
+	font-weight: bold;
+}
